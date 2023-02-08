@@ -1,0 +1,104 @@
+<html>
+  <head>
+    <style>
+      body {
+        background-color: #5d0768;
+        margin: 0;
+      }
+
+      /* box style starts */
+      .d-flex {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+      }
+      .box {
+        width: 20px;
+        height: 20px;
+      }
+
+      .green {
+        background: #09f100;
+        transition: background linear 2;
+      }
+
+      .blue {
+        background: #1d05f3;
+        transition: background linear 2;
+      }
+
+      .cyan {
+        background: aqua;
+        transition: background linear 2;
+      }
+      .transition {
+        transition: all linear 2;
+      }
+
+      .green:hover {
+        background: green;
+        width: 300px;
+        height: 300px;
+      }
+
+      .blue:hover {
+        background: #000000;
+        width: 300px;
+        height: 300px;
+      }
+
+      .cyan:hover {
+        background: coral;
+        width: 300px;
+        height: 300px;
+      }
+      /* box style ends */
+      /* ------------------------------------- */
+      /* button stye starts */
+      .btn-container {
+        display: inline-block;
+      }
+      .btn-0 {
+        padding: 14px 24px;
+        background: #5d0768;
+        border: 2px solid rgb(206, 200, 200);
+        border-radius: 5px;
+        color: white;
+        font-weight: bold;
+        transition: all linear 0.2s;
+      }
+      .btn-0:hover {
+        border: 3px solid rgb(206, 200, 200);
+        border-radius: 5px;
+      }
+      .btn-1 {
+        padding: 14px 24px;
+        background: #ffffff;
+        color: #5d0768;
+        border: 1px solid rgb(206, 200, 200);
+        border-radius: 5px;
+        font-weight: bold;
+        font: 900;
+        transition: all linear 0.2s;
+      }
+      .btn-1:hover {
+        border: 3px solid #5d0768;
+        border-radius: 5px;
+      }
+      /* DAM HELL! LAST EDIT @ 2:20AM */
+    </style>
+  </head>
+  <body>
+    <div class="d-flex">
+      <div class="box green transition"></div>
+      <div class="box blue transition"></div>
+      <div class="box cyan transition"></div>
+
+      <div class="btn-container">
+        <!-- <br><br> -->
+        <button class="btn-0">TALK TO SALES</button>
+        <button class="btn-1">TRY FOR FREE</button>
+      </div>
+    </div>
+  </body>
+</html>
